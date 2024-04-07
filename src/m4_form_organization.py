@@ -34,7 +34,8 @@ form_frame.pack(side=tk.TOP)
 
 header_label = tk.Label(
     header_frame, 
-    text="Fill the Form Below", 
+    text="Fill the Form Below",
+    bg='purple', 
     font=(16)
 )
 header_label.pack()
